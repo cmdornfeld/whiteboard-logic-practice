@@ -1,3 +1,6 @@
+// function will loop through all of the keys in the object
+// if no keys exist, it will return false
+// if a key exist in the obj, it will return true
 function isEmpty(obj) {
 	for(let key in obj){
 		return false
